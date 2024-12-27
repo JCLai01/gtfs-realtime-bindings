@@ -6064,6 +6064,5 @@ require(['protobufjs'], function(protobufjs){
     
         return transit_realtime;
     })();
-    })
-
-module.exports = $root;
+    module.exports = $root;
+})
