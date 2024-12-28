@@ -17,11 +17,11 @@
 
 require.config({
     paths: {
-        'protobufjs': 'https://cdn.jsdelivr.net/npm/protobufjs@7.4.0/dist/minimal/protobuf'
+        '$protobuf': 'https://cdn.jsdelivr.net/npm/protobufjs@7.4.0/dist/minimal/protobuf'
     } 
 }); 
 
-require(['protobufjs'], function($protobuf){
+require(['$protobuf'], function($protobuf){
 
     // Common aliases
     var $Reader = $protobuf.Reader, $Writer = $protobuf.Writer, $util = $protobuf.util;
